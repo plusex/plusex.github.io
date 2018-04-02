@@ -150,9 +150,11 @@ section .news-block .text-upp h3 {
 
 section .inform-block {
 	background: #000;
+	height: 1705px;
+	padding-top: 11px;
 }
 
-section .inform-block .sponsors .title-text {
+section .inform-block .title-text {
 	background: #181818;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -160,7 +162,6 @@ section .inform-block .sponsors .title-text {
 	font-weight: 700;
 	height: 47px;
 	padding: 12px 18px;
-	margin-top: 11px;
 	border-right: 2px solid #D13F4A;
 }
 
@@ -186,6 +187,106 @@ section .inform-block .sponsors-list .list-1 p {
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
+}
+
+section .inform-block .latest-video .img-vid {
+	margin: 12px 0;
+}
+
+section .inform-block .latest-video .img-vid img {
+	height: 151px;
+}
+
+section .inform-block .divisions .divis {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+section .inform-block .divisions .divis .divis-name {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+section .inform-block .divisions .divis p {
+	margin-bottom: 0;
+	line-height: 1;
+	color: #d13f4a;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+section .inform-block .divisions .divis .divis-name span p {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+section .inform-block .we-recommend .we-recom-img {
+	margin-top: 14px;
+}
+
+section .inform-block .we-recommend .we-recom-img img {
+	height: 102px;
+}
+
+section .inform-block .gallery {
+	margin-top: 11px
+}
+
+section .inform-block .gallery .line-gallery {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+section .inform-block .gallery .line-top {
+	margin-top: 10px;
+}
+
+section .inform-block .gallery .line-bottom {
+	margin-bottom: 10px;
+}
+
+section .inform-block .gallery .line-gallery img {
+	height: 85px;
+	width: 85px;
+	margin: 3px;
+}
+
+section .inform-block .streams .stream-top {
+	margin-top: 10px;
+}
+
+section .inform-block .streams .stream img:hover {
+	
+}
+
+section .inform-block .streams .stream .inform-text {
+	margin-top: 10px;
+}
+
+section .inform-block .streams .stream .inform-text p {
+	color: #d13f4a;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+section .inform-block .streams .stream .inform-text i {
+	color: #fff;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+section .inform-block .streams .stream .inform-text span {
+	color: #fff;
+	font-size: 13px;
 }
 
 
