@@ -203,6 +203,10 @@ section .inform-block .divisions .divis {
 	margin: 10px 0;
 }
 
+section .inform-block .divisions .divis:hover {
+	background: #0D0B0B;
+}
+
 section .inform-block .divisions .divis .divis-name {
 	display: flex;
 	flex-wrap: wrap;
@@ -235,8 +239,16 @@ section .inform-block .we-recommend .we-recom-img img {
 	height: 102px;
 }
 
+section .inform-block .we-recommend .we-recom-img img:hover {
+	box-shadow: 0 0 5px #fff;
+}
+
 section .inform-block .gallery {
 	margin-top: 11px
+}
+
+section .inform-block .gallery img:hover {
+	box-shadow: 0 0 3px #fff;
 }
 
 section .inform-block .gallery .line-gallery {
