@@ -152,6 +152,45 @@ section .inform-block {
 	background: #000;
 }
 
+section .inform-block .sponsors .title-text {
+	background: #181818;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #999;
+	font-weight: 700;
+	height: 47px;
+	padding: 12px 18px;
+	margin-top: 11px;
+	border-right: 2px solid #D13F4A;
+}
+
+section .inform-block .sponsors-list .list-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 37px;
+}
+
+section .inform-block .sponsors-list .list-1:hover {
+	background: #0C0C0C;
+}
+
+section .inform-block .sponsors-list .list-1 img {
+	width: auto;
+	height: auto;
+}
+
+section .inform-block .sponsors-list .list-1 p {
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+
+
 @media (max-width: 991px) {
 	.main-menu {
 		position: fixed;
