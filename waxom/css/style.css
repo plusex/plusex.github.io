@@ -1,0 +1,43 @@
+body {
+    font-family: "Montserrat"
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header .top-menu {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding: 8px 0;
+}
+
+header .top-menu .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+header .top-menu .navbar-dark .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+
+header .top-menu .nav-item-act {
+    margin-left: 35px;
+}
+
+header .top-menu .navbar-dark .navbar-toggler {
+    border: none;
+}
+
+header .carousel-item { 
+    height: 100vh;
+}
+
+header .carousel-item img { 
+    object-fit: cover;
+    object-position: center center;
+}
+
