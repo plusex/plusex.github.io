@@ -35,7 +35,7 @@ header .top-menu .navbar-dark .navbar-toggler {
 
 header .carousel-item { 
     height: 100vh;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 header .carousel-item img { 
@@ -62,11 +62,56 @@ header .carousel-item .carousel-caption p {
 }
 
 header .carousel-item .carousel-caption {
-    flex-direction: column;
-    align-items: center;
+    top: 200px;
+}
 
+header .carousel-item .carousel-caption .btn-secondary {
+    background: #998675;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 170px;
+}
+
+header .carousel-item .carousel-caption .btn-secondary a:focus {
+    box-shadow: none;
+    border: none
+}
+
+header .carousel-item .carousel-caption .btn-secondary a:active {
+    box-shadow: none;
+    border: none
 }
 
 section {
-    height: 700px;
+    height: 373px;
+}
+
+section .advant {
+    text-align: center;
+}
+
+section .advant-title {
+    margin-top: 30px;
+}
+
+section .advant .advant-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+}
+
+section .advant .advant-title p {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px) {
+    header .carousel-item {
+        height: 100vh;
+        min-height: 0;
+    }
 }
