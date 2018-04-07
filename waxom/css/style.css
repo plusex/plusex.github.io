@@ -33,12 +33,12 @@ header .top-menu .navbar-dark .navbar-toggler {
     border: none;
 }
 
-header .carousel-item { 
+header .carousel-item {
     height: 100vh;
     min-height: 600px;
 }
 
-header .carousel-item img { 
+header .carousel-item img {
     object-fit: cover;
     object-position: center center;
 }
@@ -88,26 +88,45 @@ section {
     height: 373px;
 }
 
+section .advant .icon-card {
+    height: 50px;
+}
+
 section .advant {
+    margin-top: 80px;
     text-align: center;
 }
 
-section .advant-title {
-    margin-top: 30px;
-}
-
-section .advant .advant-title h3 {
+section .advant h3 {
+    font-family: "Raleway";
     font-size: 22px;
     font-weight: 600;
     color: #555;
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
-section .advant .advant-title p {
+section .advant h3 span {
+    color: #c7b299;
+}
+
+section .advant p {
     font-size: 14px;
-    color: #8c8c8c;
     font-weight: 300;
+    color: #8c8c8c;
+    margin-top: 20px;
 }
 
+section .advant .border-line {
+    margin-top: 30px;
+    border-bottom: 3px solid #F1EEE9;
+    width: 70px;
+    margin: auto;
+}
+
+section .advant .active {
+    border-bottom: 3px solid #C7B299;
+}
 
 @media (max-width: 768px) {
     header .carousel-item {
