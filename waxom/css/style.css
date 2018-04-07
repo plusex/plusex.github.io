@@ -136,7 +136,6 @@ article {
 
 article .waxom-ideas {
     text-align: center;
-    color:
 }
 
 article .waxom-ideas h3 {
@@ -158,6 +157,13 @@ article .waxom-ideas p {
     section .advant {
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+    article .waxom-ideas h3 {
+        padding-top: 10px;
+    }
+    article .waxom-ideas p {
+        color: #555;
+        font-size: 11px;
     }
 }
 
