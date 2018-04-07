@@ -129,33 +129,8 @@ section .advant .active {
 }
 
 article {
-    background: url("../img/browser.png") no-repeat center bottom,
-                #FBFAF8;
     height: 700px;
-}
-
-article {
-    text-align: center;
-}
-
-article .waxom-ideas h3 {
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Raleway";
-    color: #555;
-    padding-top: 80px;
-    margin-bottom: 15px;
-}
-
-article .waxom-ideas p {
-    font-size: 16px;
-    font-weight: 300;
-    color: #8c8c8c;
-}
-
-.multi {
-    height: 150px;
-    background: linear-gradient(to right, #211B19, #4E3427);
+    background: #FBFAF8;
 }
 
 @media (max-width: 768px) {
