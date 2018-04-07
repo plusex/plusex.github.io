@@ -1,10 +1,18 @@
 body {
-    font-family: "Montserrat"
+    font-family: "Montserrat", Arial;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 header .top-menu {
@@ -72,6 +80,7 @@ header .carousel-item .carousel-caption .btn-secondary {
     text-transform: uppercase;
     height: 50px;
     width: 170px;
+    margin-top: 15px;
 }
 
 header .carousel-item .carousel-caption .btn-secondary a:focus {
@@ -130,15 +139,14 @@ section .advant .active {
 }
 
 article {
-    min-height: 700px;
-    background: url("../img/browser.png") no-repeat center bottom, #FBFAF8;
+    background: #FBFAF8;
 }
 
-article .waxom-ideas {
+article .waxom-title {
     text-align: center;
 }
 
-article .waxom-ideas h3 {
+article .waxom-title h3 {
     font-family: "Raleway";
     font-size: 30px;
     font-weight: 700;
@@ -146,11 +154,60 @@ article .waxom-ideas h3 {
     color: #555;
 }
 
-article .waxom-ideas p {
+article .waxom-title p {
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
     margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.multi {
+    background: linear-gradient(to right, #211B19, #4E3427);
+}
+
+.multi .multi-title {
+    line-height: 25px;
+    margin: 45px 0;
+}
+
+.multi .multi-title h3 {
+    color: #fff;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.multi .multi-title span {
+    color: #c7b299;
+}
+
+.multi .multi-title p {
+    color: #615855;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.multi .multi-btn .btn-secondary {
+    background: #998675;
+    height: 42px;
+    width: 160px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    border-bottom: 3px solid #8F847C;
+}
+
+.multi .multi-btn {
+    align-self: center;
+}
+
+.multi .multi-btn .btn-secondary:hover {
+    background: #998675;
+    border: none;
+    box-shadow: none;
 }
 
 @media (max-width: 992px) {
@@ -164,6 +221,12 @@ article .waxom-ideas p {
     header .carousel-item {
         height: 100vh;
         min-height: 0;
+    }
+    .multi .multi-btn .btn-secondary {
+        width: 100%;
+    }
+    .multi .multi-title {
+        text-align: center;
     }
 }
 
