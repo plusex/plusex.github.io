@@ -118,7 +118,7 @@ section .advant p {
 }
 
 section .advant .border-line {
-    margin-top: 30px;
+    padding-top: 30px;
     border-bottom: 3px solid #F1EEE9;
     width: 70px;
     margin: auto;
@@ -126,6 +126,11 @@ section .advant .border-line {
 
 section .advant .active {
     border-bottom: 3px solid #C7B299;
+}
+
+article {
+    height: 700px;
+    background: #FBFAF8;
 }
 
 @media (max-width: 768px) {
