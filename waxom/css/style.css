@@ -216,6 +216,7 @@ article .waxom-title p {
     border: none;
     box-shadow: none;
 }
+
 /* 
 .latest-project {
     min-height: 1162px;
@@ -387,8 +388,41 @@ article .waxom-title p {
 }
 
 .waxom-mobile ul li:before {
-    content:'';
+    content: '';
     margin-left: 15px;
+}
+
+.waxom-static {
+    background: linear-gradient(to right, #211B19, #4E3427);
+    text-align: center;
+}
+
+.waxom-static .icon-stat {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.waxom-static h3 {
+    font-family: "Montserrat";
+    font-size: 48px;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.waxom-static p {
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.waxom-static .line-bottom {
+    border-bottom: 2px solid #fff;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 @media (max-width: 992px) {
