@@ -216,6 +216,10 @@ article .waxom-title p {
     border: none;
     box-shadow: none;
 }
+/* 
+.latest-project {
+    min-height: 1162px;
+} */
 
 .latest-project .project-title {
     text-align: center;
@@ -226,7 +230,7 @@ article .waxom-title p {
     font-size: 30px;
     font-weight: 600;
     color: #555;
-    margin-top: 75px;
+    margin-top: 79px;
 }
 
 .latest-project .project-title p {
@@ -240,7 +244,7 @@ article .waxom-title p {
     background: #998675 !important;
 }
 
-.latest-project .btn-secondary {
+.latest-project .btn-nav .btn-secondary {
     margin-left: 10px;
     height: 30px;
     background: none;
@@ -249,18 +253,15 @@ article .waxom-title p {
     border-radius: 4px;
     font-size: 14px;
     text-transform: capitalize;
+    margin-bottom: 25px;
 }
 
-.latest-project .btn-secondary:nth-child(6) {
-    margin-bottom: 40px;
-}
-
-.latest-project .btn-secondary:active {
+.latest-project .btn-nav .btn-secondary:active {
     border: 1px solid #EBEBEB;
     background: #998675 !important;
 }
 
-.latest-project .btn-secondary:focus {
+.latest-project .btn-nav .btn-secondary:focus {
     box-shadow: none !important;
     background: #998675;
     color: #fff;
@@ -304,6 +305,87 @@ article .waxom-title p {
     font-weight: 400;
 }
 
+.latest-project .load-btn .btn-secondary {
+    background: #998675;
+    width: 155px;
+    height: 45px;
+    border-bottom: 3px solid #736357;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-family: "Raleway";
+    margin-bottom: 20px;
+}
+
+.latest-project .load-btn .btn-secondary:active {
+    background: #998675;
+}
+
+.latest-project .load-btn .btn-secondary:focus {
+    box-shadow: none;
+}
+
+.waxom-video {
+    height: 705px;
+    background: url("../img/waxom-video.png");
+}
+
+.waxom-video img {
+    margin-top: 210px;
+    margin-bottom: 44px;
+}
+
+.waxom-video .present-title {
+    text-align: center;
+}
+
+.waxom-video .present-title h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.waxom-video .present-title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.waxom-video .present-title span p {
+    color: #c7b299;
+    font-size: 14px;
+}
+
+.waxom-mobile img {
+    margin-top: 80px;
+}
+
+.waxom-mobile h3 {
+    margin-top: 196px;
+    font-size: 30px;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.waxom-mobile p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.waxom-mobile ul li {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    list-style-image: url("../img/li-point.png");
+}
+
 @media (max-width: 992px) {
     section .advant {
         margin-top: 40px;
@@ -311,6 +393,12 @@ article .waxom-title p {
     }
     .latest-project .card {
         margin: 10px;
+    }
+    .waxom-mobile h3 {
+        margin-top: 66px;
+    }
+    .waxom-mobile ul li:nth-child(4) {
+        margin-bottom: 66px;
     }
 }
 
@@ -325,6 +413,9 @@ article .waxom-title p {
     }
     .multi .multi-title {
         text-align: center;
+    }
+    .latest-project .btn-secondary {
+        margin-bottom: 5px;
     }
 }
 
