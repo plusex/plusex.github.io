@@ -245,6 +245,7 @@ article .waxom-title p {
 
 .latest-project .btn-group .btn-secondary {
     margin-left: 10px;
+    max-width: 106px;
     height: 30px;
     background: none;
     border: 1px solid #EBEBEB;
