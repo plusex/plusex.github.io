@@ -386,6 +386,11 @@ article .waxom-title p {
     list-style-image: url("../img/li-point.png");
 }
 
+.waxom-mobile ul li:before {
+    content:'';
+    margin-left: 15px;
+}
+
 @media (max-width: 992px) {
     section .advant {
         margin-top: 40px;
