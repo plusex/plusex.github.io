@@ -50,6 +50,32 @@ header .top-menu .navbar-dark .navbar-toggler {
     border: none;
 }
 
+header .carousel-indicators li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+header .carousel-indicators li.active {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #D3C1AD;
+    background: none;
+}
+
+header .carousel-control-prev-icon {
+    background: url("../img/left.png") no-repeat center center;
+    height: 100%;
+    width: 100%;
+}
+
+header .carousel-control-next-icon {
+    background: url("../img/right.png") no-repeat center center;
+    height: 100%;
+    width: 100%;
+}
+
 header .carousel-item {
     height: 100vh;
     min-height: 600px;
