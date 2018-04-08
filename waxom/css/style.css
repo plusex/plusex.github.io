@@ -451,6 +451,192 @@ article .waxom-title p {
     margin-bottom: 60px;
 }
 
+.waxom-posts .card {
+    border-radius: 0px;
+    border: 1px solid #F8F8F8;
+    margin-bottom: 40px;
+}
+
+.waxom-posts .card .card-body h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+}
+
+.waxom-posts .card .card-body p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin-bottom: 10px;
+}
+
+.waxom-posts .card .card-body a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.waxom-posts .card .card-body a i {
+    margin-left: 7px;
+}
+
+.waxom-posts .card:hover {
+    background: #362F2D;
+}
+
+.waxom-posts .card:hover .card-body h4 {
+    color: #c7b299;
+}
+
+.waxom-posts .card:hover .card-body p {
+    color: #fff;
+}
+
+.waxom-posts .carousel-indicators li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.waxom-posts .carousel-indicators li.active {
+    background: none;
+    border: 2px solid #D3C1AD;
+    width: 13px;
+    height: 13px;
+}
+
+.waxom-posts .carousel-item .carousel-caption {
+    top: 0;
+    left: 0;
+}
+
+.waxom-posts .carousel-item .carousel-caption img {
+    float: left;
+    margin-left: 20px;
+}
+
+.waxom-posts .title {
+    text-align: center;
+}
+
+.waxom-posts .title h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #555;
+    margin-top: 80px;
+}
+
+.waxom-posts .title p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.waxom-posts .pagination .page-link {
+    border: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+aside {
+    background: url("../img/brand-bg.png");
+}
+
+aside .brand-icon {
+    margin: 140px 0;
+}
+
+footer {
+    background: #181818;
+}
+
+footer .block-1 {
+    margin-top: 80px;
+    margin-bottom: 144px;
+}
+
+footer .block-1 img {
+    margin-bottom: 30px;
+}
+
+footer .block-1 p {
+    font-size: 14px;
+    color: #555;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+footer .block-1 a {
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+footer .block-2 {
+    margin-top: 108px;
+}
+
+footer .block-2 .post-1 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #252525;
+}
+
+footer .block-2 .post-1:nth-child(4) {
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+footer .block-2 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+footer .block-2 p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #555;
+    margin-top: 5px;
+}
+
+footer .block-2 span p {
+    font-size: 12px;
+    font-weight: 200;
+    color: #363636;
+}
+
+footer .block-2 .main-rog {
+    color: #fff;
+}
+
+footer .block-2 .active {
+    color: #c7b299;
+}
+
+footer #bottom {
+    padding-bottom: 15px;
+}
+
+footer .block-4 {
+    margin-top: 107px;
+}
+
+footer .block-4 h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 27px;
+}
+
+footer .block-4 img {
+    margin-bottom: 10px;
+}
+
+footer .block-4 .divan {
+    margin: 0 !important;
+}
+
 @media (max-width: 992px) {
     section .advant {
         margin-top: 40px;
@@ -464,6 +650,17 @@ article .waxom-title p {
     }
     .waxom-mobile ul li:nth-child(4) {
         margin-bottom: 66px;
+    }
+    footer .block-1 {
+        margin-bottom: 0px;
+    }
+    footer .block-2 {
+        margin-bottom: 0px;
+        margin-top: 87px;
+    }
+    footer .block-4 {
+        margin-bottom: 0px;
+        margin-top: 87px;
     }
 }
 
@@ -491,5 +688,16 @@ article .waxom-title p {
     article .waxom-ideas p {
         color: #555;
         font-size: 13px;
+    }
+    footer .block-1 {
+        margin-bottom: 0px;
+    }
+    footer .block-2 {
+        margin-bottom: 0px;
+        margin-top: 35px;
+    }
+    footer .block-4 {
+        margin-bottom: 0px;
+        margin-top: 35px;
     }
 }
