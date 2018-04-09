@@ -267,13 +267,14 @@ article .waxom-title p {
     margin-bottom: 40px;
 }
 
-.latest-project .active {
+.latest-project .btn-nav .nav-pills .active {
     background: #998675 !important;
+    color: #fff !important;
 }
 
-.latest-project .btn-nav .btn-secondary {
+.latest-project .nav-item .nav-link {
     margin-left: 10px;
-    height: 30px;
+    height: 32px;
     background: none;
     border: 1px solid #EBEBEB;
     color: #8c8c8c;
@@ -281,11 +282,6 @@ article .waxom-title p {
     font-size: 14px;
     text-transform: capitalize;
     margin-bottom: 25px;
-}
-
-.latest-project .btn-nav .btn-secondary:active {
-    border: 1px solid #EBEBEB;
-    background: #998675 !important;
 }
 
 .latest-project .btn-nav .btn-secondary:focus {
