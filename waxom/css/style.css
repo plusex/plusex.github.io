@@ -349,6 +349,11 @@ article .waxom-title p {
     box-shadow: none;
 }
 
+.latest-project .card .card-img-overlay img {
+    left: 50%;
+    right: 50%;
+}
+
 .waxom-video {
     height: 705px;
     background: url("../img/waxom-video.png");
