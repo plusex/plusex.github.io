@@ -128,13 +128,8 @@ header .carousel-item .carousel-caption .btn-secondary a:active {
     border: none
 }
 
-section {
-    min-height: 373px;
-}
-
 section .advant {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -272,10 +267,14 @@ article .waxom-title p {
     color: #fff !important;
 }
 
+.latest-project .btn-nav .nav-pills .nav-item .nav-link {
+    
+}
+
 .latest-project .nav-item .nav-link {
     margin-left: 10px;
-    height: 32px;
     background: none;
+    padding: 6px 10px;
     border: 1px solid #EBEBEB;
     color: #8c8c8c;
     border-radius: 4px;

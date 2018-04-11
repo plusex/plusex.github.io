@@ -1,0 +1,41 @@
+body {
+    font-family: "Proxima Nova";
+    background: #0D0D0D;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background: url("../img/bg.png") no-repeat top center;
+    background-size: cover;
+    min-height: 895px;
+}
+
+header .top-menu {
+    padding-top: 20px;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f84545;
+}
+
+header .main-title {
+    text-align: center;
+}
