@@ -165,9 +165,9 @@ aside .img-block {
 }
 
 aside .img-block img {
-    object-fit: cover;
-    object-position: center center;
+    height: 100%;
 }
+
 
 aside .caption-img {
     position: absolute;
