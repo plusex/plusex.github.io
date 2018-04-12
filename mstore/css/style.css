@@ -164,6 +164,11 @@ aside .img-block {
     margin-bottom: 30px;
 }
 
+aside .img-block img {
+    object-fit: cover;
+    object-position: center center;
+}
+
 aside .caption-img {
     position: absolute;
     top: 67px;
