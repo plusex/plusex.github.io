@@ -12,6 +12,7 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
 /* 
 .navbar-light .navbar-nav .nav-link {
     padding: 0;
@@ -126,8 +127,7 @@ header .slide h1 {
 
 .link-title {
     color: #111111;
-    font-size: 17px;
-    font-family: "Roboto";
+    font-size: 1.063em;
     font-weight: 700;
 }
 
@@ -168,7 +168,6 @@ aside .img-block img {
     height: 100%;
 }
 
-
 aside .caption-img {
     position: absolute;
     top: 67px;
@@ -177,34 +176,36 @@ aside .caption-img {
     flex-direction: column;
     font-family: "Open Sans";
     margin-right: 15px;
+    height: inherit;
 }
 
 aside .caption-img h5 {
     color: #ff0036;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 700;
     margin-bottom: 0;
 }
 
 aside .caption-img h3 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 800;
     color: #000;
     text-transform: uppercase;
 }
 
 aside .caption-img h4 {
-    font-size: 30px;
+    font-size: 1.875em;
     color: #ff0036;
     font-weight: 700;
 }
 
 aside .caption-img p {
-    font-size: 12px;
+    font-size: 0.750em;
     color: #636363;
     font-weight: 200;
     display: block;
     text-align: right;
+    text-transform: unset;
 }
 
 aside .pos-img {
@@ -224,12 +225,170 @@ aside .pos-img p {
     text-align: left;
 }
 
+.collection .item-shop {
+    position: relative;
+}
+
+.collection .item-shop {
+    position: relative;
+}
+
+.collection .item-capt {
+    position: absolute;
+    top: 60px;
+}
+
+.collection .item-capt h4,
+h2,
+p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.collection .item-capt h4 {
+    color: #f7941d;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.collection .item-capt h2 {
+    color: #00c8c8;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.collection .item-capt p {
+    color: #636363;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: unset;
+}
+
+.collection .link-title {
+    margin-top: 20px;
+    color: #111111;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+section .product .price-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .product .price-rate .rate {
+    display: flex;
+    align-items: center;
+}
+
+section .product .price-rate .rate i {
+    color: #B7B7B7;
+    font-size: 15px;
+}
+
+section .product .price-rate .rate #one:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #two:hover~#one {
+    color: #EECF00;
+}
+
+section .product {
+    max-width: 270px;
+}
+
+section .product p {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: unset;
+}
+
+section .product h4 {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: unset;
+    margin: 0;
+}
+
+section .product h4 span {
+    font-size: 12px;
+    color: #898989;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+section .product .img-poduct {
+    height: 350px;
+    min-width: 260px;
+    position: relative;
+}
+
+section .product .img-poduct:hover .menu-hover {
+    opacity: 1;
+}
+
+section .product .img-poduct .menu-hover {
+    background: #fff;
+    width: 270px;
+    position: absolute;
+    top: 275px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+section .product .img-poduct .menu-hover i {
+    color: #31353D;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/* 
+section .product .img-poduct .menu-hover i:nth-child(3) {
+    margin-right: 0;
+} */
+
+section .product .img-poduct .menu-hover i:hover {
+    opacity: .7;
+    transition: opacity 0.7s;
+}
+
+section .product-title {
+    padding: 25px 0;
+}
+
+section .product-title a {
+    color: #636363;
+    font-size: 10px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+section .product-title .bottom-line {
+    border-bottom: 1px solid #252525;
+    width: 50px;
+}
+
 @media (max-width: 991px) {
     .top-menu .navbar-collapse {
         margin-left: 0px;
     }
 }
 
+@media (max-width: 767px) {
+    section .product .img-poduct {
+        margin: 0 5px;
+    }
+}
+
+/* 
 @media (max-width: 767px) {
     aside .caption-img h5 {
         font-size: 10px;
@@ -254,4 +413,4 @@ aside .pos-img p {
     aside .link-title {
         font-size: 12px;
     }
-}
+} */
