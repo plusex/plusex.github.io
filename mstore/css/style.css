@@ -286,15 +286,76 @@ section .product .price-rate .rate i {
     font-size: 15px;
 }
 
+section .product .price-rate .rate #five:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #four:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #four:hover + #five {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #four:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #four:hover + #five {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #three:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #three:hover ~ #five{
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #three:hover ~ #four {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #two:hover {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #two:hover ~ #three{
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #two:hover ~ #four {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #two:hover ~ #five {
+    color: #EECF00;
+}
+
 section .product .price-rate .rate #one:hover {
     color: #EECF00;
 }
 
-section .product .price-rate .rate #two:hover~#one {
+section .product .price-rate .rate #one:hover ~ #two{
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #one:hover ~ #three {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #one:hover ~ #four {
+    color: #EECF00;
+}
+
+section .product .price-rate .rate #one:hover ~ #five {
     color: #EECF00;
 }
 
 section .product {
+    padding-top: 25px;
     max-width: 270px;
 }
 
@@ -321,8 +382,7 @@ section .product h4 span {
 }
 
 section .product .img-poduct {
-    height: 350px;
-    min-width: 260px;
+    max-height: 350px;
     position: relative;
 }
 
@@ -359,7 +419,6 @@ section .product .img-poduct .menu-hover i:hover {
 }
 
 section .product-title {
-    padding: 25px 0;
 }
 
 section .product-title a {
