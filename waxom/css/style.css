@@ -427,11 +427,13 @@ article .waxom-title p {
 .waxom-static {
     background: linear-gradient(to right, #211B19, #4E3427);
     text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
-.waxom-static .icon-stat {
-    margin-top: 70px;
-    margin-bottom: 25px;
+.waxom-static .stat {
+    display: flex;
+    flex-direction: column;
 }
 
 .waxom-static h3 {
@@ -440,6 +442,7 @@ article .waxom-title p {
     color: #fff;
     font-weight: 200;
     margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .waxom-static p {
@@ -453,8 +456,8 @@ article .waxom-title p {
 .waxom-static .line-bottom {
     border-bottom: 2px solid #fff;
     width: 30px;
-    margin: auto;
-    margin-bottom: 60px;
+    align-self: center;
+    margin-top: auto;
 }
 
 .waxom-posts .card {
@@ -670,6 +673,9 @@ footer .block-4 .divan {
     }
     header .carousel-item .carousel-caption {
         top: 25%;
+    }
+    .waxom-static .line-bottom {
+        margin-bottom: 30px;
     }
 }
 
