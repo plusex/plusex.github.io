@@ -128,9 +128,14 @@ header .carousel-item .carousel-caption .btn-secondary a:active {
     border: none
 }
 
+section {
+    padding: 80px;
+}
+
 section .advant {
-    padding: 80px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 section .advant .icon-card {
@@ -161,7 +166,8 @@ section .advant .border-line {
     padding-top: 30px;
     border-bottom: 3px solid #F1EEE9;
     width: 70px;
-    margin: auto;
+    align-self: center;
+    margin-top: auto;
 }
 
 section .advant .active {
