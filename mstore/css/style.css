@@ -13,19 +13,6 @@ a {
     text-decoration: none;
 }
 
-/* 
-.navbar-light .navbar-nav .nav-link {
-    padding: 0;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar-brand {
-    margin: 0;
-} */
-
 .opt {
     background: #31353D;
     padding-top: 15px;
@@ -394,7 +381,7 @@ section .product .img-poduct .menu-hover {
     background: #fff;
     width: 270px;
     position: absolute;
-    top: 275px;
+    top: 80%;
     display: flex;
     justify-content: center;
     padding: 8px 0;
