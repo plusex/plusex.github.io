@@ -551,10 +551,10 @@ article .waxom-title p {
 
 aside {
     background: url("../img/brand-bg.png");
+    padding: 140px;
 }
 
 aside .brand-icon {
-    margin: 140px 0;
 }
 
 footer {
