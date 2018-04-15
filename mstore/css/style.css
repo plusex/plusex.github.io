@@ -379,7 +379,7 @@ section .product .img-poduct:hover .menu-hover {
 
 section .product .img-poduct .menu-hover {
     background: #fff;
-    width: 270px;
+    width: 100%;
     position: absolute;
     top: 80%;
     display: flex;
