@@ -4,6 +4,22 @@ body {
     min-width: 400px;
 }
 
+hr {
+    width: 111px;
+    height: 3px;
+    background: #DC0000;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h5 {
+    color: #dc0000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Lato";
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -119,13 +135,6 @@ h4 {
     font-size: 40px;
 }
 
-.line {
-    border-top: 3px solid #DC0000;
-    width: 111px;
-    margin: auto;
-    margin-bottom: 60px;
-}
-
 .line:nth-child(1) {
     margin-bottom: 0;
 }
@@ -184,6 +193,46 @@ h4 {
     padding: 60px 0;
     background: url("../img/trend-bg.png");
 }
+
+.trend .light {
+    font-size: 18px;
+    color: #777;
+}
+
+.carousel-item .line {
+    width: 30px;
+    height: 1px;
+    background: #000;
+}
+
+.trend p {
+    font-family: "Lato";
+    font-size: 18px;
+    color: #777;
+}
+
+.trend .nav-item {
+    border: 1px solid #333333;
+    margin-right: 30px;
+}
+
+.trend .nav-item:hover {
+    background: #333;
+}
+
+.trend .nav-item:hover .nav-link {
+    color: #fff;
+}
+
+.trend .nav-item .nav-link {
+    padding: 15px 23px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
 
 @media (max-width: 992px) {
     .img-product {
