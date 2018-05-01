@@ -1,0 +1,183 @@
+body {
+    min-width: 320px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    color: #3d3d3d;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h5 {
+    font-size: 24px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    margin-bottom: 34px;
+}
+
+.header .navbar {
+    padding-top: 0;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    padding-top: 0;
+    color: #3d3d3d;
+}
+
+.header .navbar-brand {
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.lig {
+    color: #3d3d3d;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 0;
+    padding: 12px 25px;
+    border: 1px solid #3D3D3D;
+}
+
+.btn:hover {
+    background: #3D3D3D;
+}
+
+.btn:focus {
+    background: #3D3D3D !important;
+    color: #fff;
+}
+
+.carousel-control-next-icon {
+    background: url("../img/next.png") center center;
+    background-size: cover;
+    height: 48px;
+    width: 25px;
+}
+
+.carousel-control-prev-icon {
+    background: url("../img/back.png") center center;
+    background-size: cover;
+    height: 48px;
+    width: 25px;
+}
+
+.product h5 {
+    text-transform: unset;
+}
+
+.product .btn {
+    margin-top: 55px;
+    margin-right: 30px;
+}
+
+.product .ligs {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.product .free-ship {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.product hr {
+    width: 750px;
+    background: #3d3d3d;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.product .free-ship a {
+    color: #3d3d3d;
+}
+
+.items {
+    padding: 33px 43px;
+}
+
+.items h5 {
+    text-transform: unset;
+}
+
+.items .item {
+    max-height: 433px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.items .item p {
+    margin-bottom: 0;
+}
+
+.items .item h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.items .img-item {
+    margin-bottom: 10px;
+}
+
+.items hr {
+    background: #3d3d3d;
+}
+
+.lorem {
+    padding-bottom: 40px;
+}
+
+.lorem p {
+    margin-bottom: 0;
+}
+
+.lorem span {
+    text-transform: uppercase;
+}
+
+.main-map {
+    background: url("../img/map.png") center center;
+    background-size: cover;
+    padding-bottom: 108px;
+    padding-left: 15px;
+}
+
+.map h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.map p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.main-map .fa {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+}
