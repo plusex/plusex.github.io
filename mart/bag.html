@@ -16,7 +16,7 @@
 <body>
     <section class="header">
         <div class="container">
-            <div class="top-menu">
+            <div class="top-menu top-menu-bag">
                 <a class="navbar-brand d-block text-center" href="index.html">logosnazvaniem</a>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -45,55 +45,43 @@
                         </ul>
                     </div>
                 </nav>
-            </div>
-            <div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/red-front.png" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>красная сумка</h5>
-                            <p class="lig">1.500 Руб.</p>
-                            <a type="button" href="bag.html" class="btn btn-outline-secondary">
-                                Подробнее
-                            </a>
-                            <a type="button" href="#" class="btn btn-outline-secondary">В корзину
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/red-front.png" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>красная сумка</h5>
-                            <p class="lig">1.500 Руб.</p>
-                            <a href="bag.html" type="button" class="btn btn-outline-secondary">
-                                Подробнее
-                            </a>
-                            <button type="button" class="btn btn-outline-secondary">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon d-none d-md-inline-block" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon d-none d-md-inline-block" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <hr>
             </div>
         </div>
     </section>
-    <section class="product">
+    <section class="product bag">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Сумочки</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Красная сумка</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-6">
                     <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/two-people.png" alt="First slide">
+                                <img class="d-block w-100" src="img/red-front-b.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/two-people.png" alt="Second slide">
+                                <img class="d-block w-100" src="img/red-front-b.png" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
@@ -107,9 +95,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 text-center text-md-left">
-                    <h5>Набор: Богемная Муромлянка</h5>
-                    <p class="lig">Детальное описание приимуществ и красоты этого набора вещей. Удобно, комфортно и в общем прекрасно. Идеально
-                        для этого времени года. Чем больше тут написано тем лучше. В набор входит:</p>
+                    <h5 class="title">красная сумка</h5>
+                    <p class="lig">В новый сезон с новой сумкой. У нас вы подберете вещ которая идеально дополнит ваш гардероб. И еще что
+                        то нужно написать для индексации, ну и чтобы смотрелось симпатичненько. В идеале чтобы тут было две
+                        три строчки про прекрасные муромские сумки, на перчатках соответственно про перчатки, а на аксессуарах
+                        про аксессуары.</p>
                     <ul>
                         <li>- Шапочка из барсучьего меха</li>
                         <li>- Сумочка из барсучьей кожи</li>
@@ -117,9 +107,8 @@
                         <li>- Парочка стильных аксессуаров</li>
                     </ul>
                     <h5>2.500 Руб.</h5>
-                    <button type="button" class="btn btn-outline-secondary">
-                        Подробнее</button>
-                    <button type="button" class="btn btn-outline-secondary">В корзину</button>
+                    <p class="small">*бесплатная доставка по Муромскому району</p>
+                    <button type="button" class="btn btn-outline-secondary w-100">В корзину</button>
                 </div>
                 <div class="col-12 text-center text-md-left free-ship">
                     <a href="#">
