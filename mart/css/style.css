@@ -1,5 +1,5 @@
 body {
-    min-width: 320px;
+    min-width: 321px;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 300;
@@ -84,7 +84,7 @@ img {
 }
 
 .product .btn {
-    margin-right: 30px;
+    margin-right: 2px;
 }
 
 .product .btn:last-child {
@@ -194,7 +194,12 @@ img {
         color: #000;
         font-weight: 700;
     }
+
     .navbar-toggler {
         width: 100%;
+    }
+
+    .product h5 {
+        margin-top: 20px;
     }
 }
