@@ -25,7 +25,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto text-center">
-                            <li class="nav-item active">
+                            <li class="nav-item active act">
                                 <a class="nav-link" href="#">Сумочки
                                     <span class="sr-only">(current)</span>
                                 </a>
@@ -67,21 +67,84 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 d-none d-lg-block">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
                 </div>
                 <div class="col-lg-6">
-                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                        </ol>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/red-front-b.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/red-front-b.png" alt="Second slide">
+                                <img class="d-block w-100" src="img/red-front-b.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/red-front-b.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/red-front-b.png" alt="First slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon d-none d-md-inline-block" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon d-none d-md-inline-block" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-md-left">
+                    <div class="item-product">
+                        <h5 class="title">красная сумка</h5>
+                        <p class="lig">В новый сезон с новой сумкой. У нас вы подберете вещ которая идеально дополнит ваш гардероб. И еще
+                            что то нужно написать для индексации, ну и чтобы смотрелось симпатичненько. В идеале чтобы тут
+                            было две три строчки про прекрасные муромские сумки, на перчатках соответственно про перчатки,
+                            а на аксессуарах про аксессуары.</p>
+                        <ul class="mb-auto">
+                            <li><span>Материал:</span> Замша</li>
+                            <li><span>Цвет:</span> Красный</li>
+                            <li><span>Габариты:</span> Красный</li>
+                            <li><span>Производитель:</span> Красный</li>
+                            <li><span>Страна бренда:</span> Красный</li>
+                            <li><span>Количество ремней:</span> 4</li>
+                            <li><span>Подкладка:</span> Добавили</li>
+                            <li><span>Верх:</span> Добавили</li>
+                        </ul>
+                        <h5>2.500 Руб.</h5>
+                        <p class="small">*бесплатная доставка по Муромскому району</p>
+                        <button type="button" class="btn btn-outline-secondary w-100">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-md-left free-info">
+                    <p>Все представленный товары вы можете посмотреть в живую по адресу г.Муром Ул.Моссковаская д36/2.
+                        <br> Чтобы получить информацию по доставке в другие регионы воспользуйтесь формой обратной связи. Ну
+                        или еще какая информация.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product bags">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5>Входит в набор:</h5>
+                </div>
+                <div class="col-lg-8">
+                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/two-people.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/two-people.png" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
@@ -95,11 +158,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 text-center text-md-left">
-                    <h5 class="title">красная сумка</h5>
-                    <p class="lig">В новый сезон с новой сумкой. У нас вы подберете вещ которая идеально дополнит ваш гардероб. И еще что
-                        то нужно написать для индексации, ну и чтобы смотрелось симпатичненько. В идеале чтобы тут было две
-                        три строчки про прекрасные муромские сумки, на перчатках соответственно про перчатки, а на аксессуарах
-                        про аксессуары.</p>
+                    <h5>Набор: Богемная Муромлянка</h5>
+                    <p class="lig">Детальное описание приимуществ и красоты этого набора вещей. Удобно, комфортно и в общем прекрасно. Идеально
+                        для этого времени года. Чем больше тут написано тем лучше. В набор входит:</p>
                     <ul>
                         <li>- Шапочка из барсучьего меха</li>
                         <li>- Сумочка из барсучьей кожи</li>
@@ -107,15 +168,9 @@
                         <li>- Парочка стильных аксессуаров</li>
                     </ul>
                     <h5>2.500 Руб.</h5>
-                    <p class="small">*бесплатная доставка по Муромскому району</p>
-                    <button type="button" class="btn btn-outline-secondary w-100">В корзину</button>
-                </div>
-                <div class="col-12 text-center text-md-left free-ship">
-                    <a href="#">
-                        <p class="ligs">бесплатная доставка по муромскому району!</p>
-                    </a>
-                    <p>*для получения подробной информации щелкни сюда</p>
-                    <hr>
+                    <button type="button" class="btn btn-outline-secondary">
+                        Подробнее</button>
+                    <button type="button" class="btn btn-outline-secondary">В корзину</button>
                 </div>
             </div>
         </div>
@@ -124,7 +179,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h5>Рекомендуем:</h5>
+                    <h5>Похожие товары:</h5>
                 </div>
             </div>
             <div class="row text-center text-lg-left justify-content-center">
@@ -171,64 +226,6 @@
                         <p>Красный замшевый рюкзак на лямках</p>
                         <h2>1.400 Руб.</h2>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <div class="img-item">
-                            <a href="#">
-                                <img src="img/item.png" alt="">
-                            </a>
-                        </div>
-                        <p>Красный замшевый рюкзак на лямках</p>
-                        <h2>1.400 Руб.</h2>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <div class="img-item">
-                            <a href="#">
-                                <img src="img/item.png" alt="">
-                            </a>
-                        </div>
-                        <p>Красный замшевый рюкзак на лямках</p>
-                        <h2>1.400 Руб.</h2>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <div class="img-item">
-                            <a href="#">
-                                <img src="img/item.png" alt="">
-                            </a>
-                        </div>
-                        <p>Красный замшевый рюкзак на лямках</p>
-                        <h2>1.400 Руб.</h2>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <div class="img-item">
-                            <a href="#">
-                                <img src="img/item.png" alt="">
-                            </a>
-                        </div>
-                        <p>Красный замшевый рюкзак на лямках</p>
-                        <h2>1.400 Руб.</h2>
-                    </div>
-                </div>
-            </div>
-            <hr>
-        </div>
-    </section>
-    <section class="lorem">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <p>
-                        <span>logonazvanie</span> - это большой выбор сумок для всех возрастов,возможность самовывоза в Муроме
-                        в день
-                        <br> заказа при оформлении до 15-00, мы отвечаем за качество - гарантия на сумочки, мыпредоставляем
-                        <br> российских производителей,доступная цена.</p>
                 </div>
             </div>
         </div>
