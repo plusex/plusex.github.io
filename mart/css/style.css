@@ -140,6 +140,11 @@ img {
 
 .items .img-item {
     margin-bottom: 10px;
+    transition: opacity .2s;
+}
+
+.items .img-item:hover {
+    opacity: .8;
 }
 
 .items hr {
