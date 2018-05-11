@@ -14,6 +14,7 @@ h2 {
     font-size: 30px;
     color: #1e1e1e;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -28,10 +29,27 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
 a {
     font-size: 18px;
     font-weight: 600;
     color: #3b3b3b;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .title {
@@ -141,4 +159,91 @@ h1 {
 
 .statistics .title {
     margin-bottom: 50px;
+}
+
+.wheels {
+    padding: 50px 0;
+}
+
+.wheels .title {
+    margin-bottom: 30px;
+}
+
+.wheels a {
+    text-decoration: underline;
+}
+
+.wheels .item {
+    margin-bottom: 40px;
+}
+
+.team {
+    padding: 50px 0;
+    background: #eee;
+}
+
+.team p {
+    margin-bottom: 50px;
+}
+
+.team .man-img {
+    margin-bottom: 25px;
+}
+
+.follow {
+    padding: 40px 0;
+}
+
+.follow .ri {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.follow p {
+    margin-bottom: 30px;
+}
+
+.follow a {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer {
+    padding: 30px 0;
+    background: #181818;
+}
+
+.footer .title {
+    margin-top: 10px;
+    font-weight: 800;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.footer .main-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ededed;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-transform: uppercase;
+    color: #ededed;
+    font-weight: 600;
+}
+
+.footer .fa {
+    color: #ededed;
+    font-size: 30px;
 }
