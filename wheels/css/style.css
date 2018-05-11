@@ -65,23 +65,23 @@ a {
     height: 100vh;
 }
 
-.collapse.show {
+.header .collapse.show {
     display: block;
 }
 
-.navbar-toggler {
+.header .navbar-toggler {
     text-transform: uppercase;
     font-size: 24px;
     color: #ededed !important;
     font-weight: 700;
 }
 
-.navbar-toggler:before {
+.header .navbar-toggler:before {
     content: 'menu';
     letter-spacing: 5px;
 }
 
-.navbar-toggler-icon {
+.header .navbar-toggler-icon {
     background: url("../img/burger-menu.png") center center no-repeat !important;
 }
 
