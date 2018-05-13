@@ -1,0 +1,245 @@
+body {
+    font-family: "Ubuntu";
+    font-size: 17px;
+    color: #828282;
+    min-width: 320px;
+    /* чтобы сайт меньше ххх не адаптивился */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: #828689;
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 17px;
+    color: #828282;
+}
+
+.link {
+    font-weight: 700;
+    color: #2cc7c1;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.large {
+    font-size: 22px;
+    color: #828689;
+}
+
+.header {
+    background: url("../img/header_bg.jpg") center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .center {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.header .center h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header .center p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.header .row {
+    height: 100vh;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.speakers {
+    padding: 110px 0 90px 0;
+    border-bottom: 8px solid #f0f0f1;
+}
+
+.section-tab {
+    border: 3px solid #ececec;
+    border-radius: 2px;
+}
+
+.nav-tabs .nav-link {
+    background: #ececec;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #abb1ba;
+    font-weight: 700;
+}
+
+.speakers .nav-link.active {
+    color: #9097a1
+}
+
+.tab-pane {
+    padding: 30px 20px;
+}
+
+.speakers .nemo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.speakers .nemo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.speakers .front {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.speakers .front:hover {
+    opacity: .4;
+}
+
+.speakers .front:hover~h5 {
+    color: #5bd8d3;
+}
+
+.speakers .back {
+    background: #5bd8d3;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.speakers .item {
+    position: relative;
+}
+
+.speakers .back .fa {
+    font-size: 40px;
+    color: #fff;
+    line-height: 140px;
+}
+
+.event {
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.event .nav-tabs {
+    background: #ececec;
+}
+
+.event .time {
+    background: #2cc7c1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 3px 8px;
+    margin-right: 12px;
+}
+
+.event .enim {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.event .enim .fa {
+    margin-left: auto;
+    color: #2cc7c1;
+}
+
+.event .enim a {
+    color: #747a84;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.event .enim:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.event .carousel-inner {
+    border-radius: 2px;
+}
+
+.event .carousel-indicators {
+    margin: 0;
+    justify-content: flex-start;
+    left: 15px;
+    bottom: 15px;
+}
+
+.event .carousel-indicators li {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #65d2ce;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.event .carousel-indicators li.active {
+    background: #65d2ce;
+}
+
+.register {
+    background: #F3F3F3;
+    padding: 145px 0;
+}
+
+.register .reg {
+    background: #fff;
+    padding: 50px 50px;
+    margin-top: 57px;
+}
+
+.register .reg form input {
+    background: #EFEFEF;
+    border: none;
+}
+
+.register .reg .btn-primary {
+    background: #7EA4E8;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.brand {
+    padding: 60px 0;
+}
+
+.map {
+    height: 673px
+}
+
+.map img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (max-width: 991px) {
+    .brand .icon-brand {
+        margin-top: 80px;
+    }
+}
