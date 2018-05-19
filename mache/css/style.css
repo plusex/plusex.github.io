@@ -107,6 +107,22 @@ h1 {
 .tr {
     height: 0;
     width: 100%;
-    border-bottom: 20px solid #F4F4F4;
-    border-left: 1300px solid #ED145B
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid #ED145B;
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
 }
