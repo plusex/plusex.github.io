@@ -1,0 +1,112 @@
+body {
+    font-family: "Lato";
+    color: #5a5a5a;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    background: #ED145B;
+    width: 200px;
+    height: 2px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.pink {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.header {
+    background: url("../img/bg.png") center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: "Proxima Nova";
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.navbar-brand span {
+    color: #ed145b;
+}
+
+.header .top-menu {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header .navbar-dark .navbar-nav .nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ed145b;
+}
+
+.header p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header .d-flex {
+    height: 100vh;
+}
+
+.header .center {
+    margin: auto;
+}
+
+.header .center span {
+    font-weight: 900;
+}
+
+.header .center .btn {
+    font-weight: 700;
+    background: #ED145B;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 24px;
+}
+
+.header .center .btn:focus {
+    background: #ED145B;
+}
+
+.tr {
+    height: 0;
+    width: 100%;
+    border-bottom: 20px solid #F4F4F4;
+    border-left: 1300px solid #ED145B
+}
