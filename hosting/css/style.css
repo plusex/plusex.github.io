@@ -6,7 +6,7 @@
 body {
     font-family: 'Open Sans';
     background: #fff;
-    min-width: 380px;
+    min-width: 320px;
 }
 
 a {
@@ -51,6 +51,7 @@ img {
 
 .top .tool a {
     color: #9ba4b0;
+    text-align: center;
 }
 
 .top .tool a span {
@@ -63,18 +64,104 @@ img {
     margin: 0 5px;
 }
 
+.bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.bottom ul li {
+    list-style: none;
+    padding: 20px 0;
+    background: #FF8261;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottom ul li:hover {
+    background: #52CBF8;
+}
+
+.bottom ul li a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.carousel-item {
+    background: url("../img/bg.png") center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.carousel-caption p {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.carousel-caption p {
+    margin-bottom: 60px;
+}
+
+.carousel-indicators li {
+    height: 10px !important;
+    width: 10px !important;
+    background: transparent !important;
+    border-radius: 50%;
+    border: 2px solid #5278DB;
+}
+
+.carousel-indicators li.active {
+    border: 2px solid #FF8261;
+}
+
+.navbar-toggler {
+    border: 2px solid #E1E9F2 !important;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.navbar-set {
+    text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+    .top {
+        justify-content: center;
+    }
+
+    .top .tool {
+        display: none;
+    }
+
+    .bottom ul li {
+        padding: 10px 0;
+    }
+}
+
 @media (max-width: 768px) {
     .top {
         justify-content: center;
     }
 
     .top .tool {
-        padding-left: 0;
+        display: none;
     }
 }
 
 @media (max-width: 576px) {
-    .top .logo {
-        margin-bottom: 15px;
-    }
+    
+}
+
+@media (max-width: 508px) {
+    
 }
