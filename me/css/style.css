@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Proxima Nova";
+}
+
+.main {
+    background: url("../img/bg.png") ;
+    height: 100vh;
+}
+
+.main .card {
+    padding: 30px;
+    height: 100vh;
+    transition: padding .5s;
+}
+
+.main .card:hover {
+    padding: 37px;
+}
+
+.main .card .top {
+    background: #fff;
+    height: 50%;
+    background: url("../img/work.jpg") no-repeat;
+    /* -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 64%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 64%); */
+}
+
+.main .card .top h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.main .card .bottom {
+    background: #fff;
+    height: 50%;
+}
+
+.main .card .second-top {
+    background: url("../img/me.jpg") center center ;
+}
+
+.main .card .second-top h1 {
+    color: #000;
+}
+
+.main .card .bottom .but {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    border: 2px solid rgba(131, 7, 100, 0.233);
+}
