@@ -64,35 +64,10 @@ header .top-menu .menu-item .item .item-drop {
     padding-top: 45px;
     padding-bottom: 35px;
     z-index: 999;
-    display: none;
-}
-
-header .top-menu .menu-item .categories:hover .item-drop {
-    display: block;
 }
 
 header .top-menu .menu-item .item .item-drop h2 {
     font-size: 14px;
-}
-
-header .top-menu .menu-item .item-drop ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-header .top-menu .menu-item .item-drop ul li {
-    margin-bottom: 15px;
-}
-
-header .top-menu .menu-item .item-drop ul li a {
-    font-family: "Quicksand";
-    font-size: 16px;
-    color: #fff;
-    text-transform: capitalize;
-}
-
-header .top-menu .menu-item .item-drop ul li:last-child {
-    margin-bottom: 0px;
 }
 
 /* menu-dropdown */
