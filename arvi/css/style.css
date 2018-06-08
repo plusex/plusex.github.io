@@ -1,0 +1,127 @@
+
+
+body {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-main {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+
+header .top-menu {
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 2px solid #F5F0EA;
+    margin-bottom: 25px;
+}
+
+header .top-menu .logo a {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Sniglet";
+    color: #816fca;
+    text-transform: uppercase;
+}
+
+/* menu-item */
+
+header .top-menu .menu-item .item {
+    margin-left: 60px;
+    font-family: "Fredoka One";
+    text-transform: uppercase;
+    color: #45413e;
+}
+
+header .top-menu .menu-item .item a {
+    font-family: "Fredoka One";
+    text-transform: uppercase;
+    color: #45413e;
+}
+
+header .top-menu .menu-item .item i {
+    margin-left: 25px;
+    opacity: .5;
+}
+
+header .top-menu .menu-item .item .item-drop {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    background: #1F262F;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    z-index: 999;
+}
+
+header .top-menu .menu-item .item .item-drop h2 {
+    font-size: 14px;
+}
+
+/* menu-dropdown */
+
+header .top-menu .menu-dropdown .item-drop {
+    margin-right: 50px;
+    position: relative;
+}
+
+header .top-menu .menu-dropdown .item-drop:last-child {
+    margin-right: 0;
+}
+
+header .top-menu .menu-dropdown .item-drop a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #45413e;
+    font-family: "Quicksand";
+    opacity: .5;
+}
+
+header .top-menu .menu-dropdown .item-drop.us:before {
+    content: "$";
+    color: #45413e;
+    font-family: "Quicksand";
+    opacity: .5;
+    font-weight: 700;
+}
+
+header .top-menu .menu-dropdown .item-drop .drop {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 2px solid #F5F0EA;
+    z-index: 999;
+    padding: 0 20px;
+}
+
+header .top-menu .menu-dropdown .item-drop .drop a {
+    padding: 15px 0;
+}
+
+header .top-menu .menu-dropdown .item-drop:hover .drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* menu-tool */
+
+header .top-menu .menu-tool .item-icon a {
+    margin-left: 35px;
+    color: #45413e;
+    opacity: .5;
+    font-size: 23px;
+}

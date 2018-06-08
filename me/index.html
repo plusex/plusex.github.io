@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="js/js.js">
     <title>Document</title>
 </head>
+
 <body>
     <div class="main">
         <div class="container">
@@ -32,14 +33,42 @@
                         </div>
                         <div class="bottom">
                             <div class="but">
-                                <a href="#">Show</a>
+                                <a class="me" href="#">Show</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="test">
+            <div class="container">
+                fjasdfhsdufhsdoufhsdo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure facilis consectetur exercitationem
+                in aliquam eligendi, doloribus quam id quaerat fugit error minima natus reprehenderit, quidem quas ipsa non
+                optio laboriosam quis temporibus architecto, praesentium nam? Fuga possimus cupiditate dolore itaque vel
+                nulla. Reprehenderit nulla alias sunt ab sequi pariatur, repellat reiciendis quidem corporis, ducimus, molestias
+                aliquid voluptates accusamus doloremque quisquam veniam quos perspiciatis facilis nam ipsa adipisci earum.
+                Impedit eligendi delectus explicabo molestiae enim non nulla officia? Aliquid saepe ab quis exercitationem?
+                Nesciunt rerum quibusdam itaque iure dicta autem, placeat voluptatum voluptas consequuntur doloribus officia
+                doloremque fugiat corrupti ut quasi repellat. Sed, eveniet laboriosam eum nesciunt impedit doloribus labore
+                soluta numquam nihil. Nobis vel doloremque deserunt quis rem cupiditate voluptatum laboriosam, quae sint
+                possimus nam! Expedita, eum, recusandae dolor molestiae sed omnis, eveniet nemo debitis cumque exercitationem
+                neque quisquam similique soluta placeat necessitatibus? Veniam id quisquam eaque illo laboriosam error, enim
+                animi rerum natus placeat ducimus, nam inventore repudiandae eum, aliquid perferendis pariatur in tempore?
+                Iusto, laborum? Voluptatum unde necessitatibus explicabo adipisci? Nisi minus ratione, dignissimos eaque
+                similique iure rerum vero facere excepturi dolores voluptatum eveniet porro deleniti quod necessitatibus
+                cupiditate itaque minima esse. Explicabo iure minus officia numquam?
+            </div>
+        </div>
     </div>
+    <button id="button">Скрыть</button>
+    <div id="block" style="display:none;">Этот элемент появится</div>
+    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <script src="js/js.js">
+    $('#button').click(function () {
+            $("#block").css("display", "block;");
+        });</script>
 </body>
+
 </html>
