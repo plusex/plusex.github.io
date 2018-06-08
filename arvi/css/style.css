@@ -55,7 +55,25 @@ header .top-menu .menu-item .item i {
     opacity: .5;
 }
 
-<<<<<<< HEAD
+header .top-menu .menu-item .item .item-drop {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    background: #1F262F;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    z-index: 999;
+    display: none;
+}
+
+header .top-menu .menu-item .categories:hover .item-drop {
+    display: block;
+}
+
+header .top-menu .menu-item .item .item-drop h2 {
+    font-size: 14px;
+}
 
 header .top-menu .menu-item .item-drop ul {
     list-style: none;
@@ -78,23 +96,6 @@ header .top-menu .menu-item .item-drop ul li:last-child {
 }
 
 
-=======
-header .top-menu .menu-item .item .item-drop {
-    position: absolute;
-    left: 0;
-    color: #fff;
-    background: #1F262F;
-    width: 100%;
-    padding-top: 45px;
-    padding-bottom: 35px;
-    z-index: 999;
-}
-
-header .top-menu .menu-item .item .item-drop h2 {
-    font-size: 14px;
-}
-
->>>>>>> parent of babcb1b... backup
 /* menu-dropdown */
 
 header .top-menu .menu-dropdown .item-drop {
