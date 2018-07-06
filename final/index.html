@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="zoom-cert-1" class="zoom-cert modal" >
+        <img src="img/open-1.jpg" alt="">
+    </div>
+    <div id="zoom-cert-2" class="zoom-cert modal" >
+        <img src="img/open-2.jpg" alt="">
+    </div>
+    <div id="modal-win" class="modal">
+        <div class="row">
+            <div class="col-12">
+                <h5>Закажите обратный звонок</h5>
+            </div>
+        </div>
+        <div class="spin">
+            <img src="img/modal-spinning.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form id="form-call" method="POST" action="application.php">
+                    <input name="telephone" placeholder="телефон" class="modal-inp" type="text" required/>
+                    <input class="modal-btn" value="отправить" type="submit">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Это абсолютно бесплатно. Перезвоним в течение <br> 90 минут.</p> 
+            </div>
+        </div>
+    </div>
+    <div id="modal-ship" class="modal modal-ship">
+        <div class="spin">
+            <img src="img/spin.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h5>Куда доставляем?</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Поставим ваш заказ в любую точку России за 1-12 дней. В зависимости от дальности региона будет выбран способ доставки: курьером или Почтой России.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <span>Заказ можно оплатить наличными курьеру или наложенным платежом на почте.</span>
+            </div>
+        </div>
+    </div>       
+    <div id="modal-where-ship" class="modal modal-ship-2">
+        <div class="spin">
+            <img src="img/spin.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h5>Как доставляем?</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Исходя из загруженности курьеров, отправим вашу удочку в день заказа или на следующий день по Москве и области.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>При заказе в другой регион заказ отправим в течение 24 часов курьером или "Почтой России” в зависимости от дальности региона. Доставку осуществим в любую точку Российской Федерации за 1-12 дней.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>После общения с менеджером мы высылаем заказ, вы его принимаете и оплачиваете.Заказ приходит с описью вложения. Важно: почта России взымает комиссию за наложенный платеж.</p>
+            </div>
+        </div>
+        
+    </div>       
+    <div id="modal-how-much" class="modal modal-ship-3">
+            <div class="spin">
+                    <img src="img/spin.png" alt="">
+                </div>
+        <div class="row">
+            <div class="col-12">
+                <h5>Сколько стоит?</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul>
+                    <li>Доставка по Москве в пределах МКАД - 250 рублей</li>
+                    <li>Доставка по Москве за пределами МКАД - 400 рублей</li>
+                    <li>Доставка по Московской области - от 500 рублей</li>
+                    <li>Доставка в любой регион Почтой России - 500 рублей.</li>
+                </ul>
+            </div>
+        </div>
+    </div>       
+    <section class="header">
+        <img class="spin" src="img/spinning.png" alt="">
+        <div class="top-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 head-center-s">
+                        <div class="logo">
+                            <a class="name" href="index.html" data-text="Официальный интернет магазин&#10;самоподсекающих удочек">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                            <p>Официальный интернет магазин
+                                <br>самоподсекающих удочек</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 head-center-s">
+                        <div class="call-us">
+                            <div class="number">
+                                <h3>
+                                    <span>Звоните прямо сейчас</span>
+                                    <br> 8(945) 142-42-36</h3>
+                                <a class="head-btn" rel="modal:open" href="#modal-win">обратный звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 center">
+                        <p>самоподсекающая удочка</p>
+                        <h1>Fisher<span>Go</span>Man</h1>
+                        <p>+ плетеная лезка бесплатно</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pre-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="case">
+                            <div class="icon-case">
+                                <img src="img/head-icon-1.png" alt="">
+                            </div>
+                            <div class="text-case">
+                                <p>Не упусти ни одной поклевки</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="case">
+                            <div class="icon-case">
+                                <img src="img/head-icon-2.png" alt="">
+                            </div>
+                            <div class="text-case">
+                                <p>Отличный подарок коллеге, боссу, другу</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="case">
+                            <div class="icon-case">
+                                <img src="img/head-icon-3.png" alt="">
+                            </div>
+                            <div class="text-case">
+                                <p>Отдыхай и рыбачь одновременно</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-stock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="time">
+                            <div class="time-wrap">
+                                <h5>акция </h5>
+                                <div id="clock">
+                                    <span id="hour">23</span>
+                                    <span>:</span>
+                                    <span id="minute">59</span>
+                                    <span>:</span>
+                                    <span id="second">59</span>
+                                </div>
+                                <div id="timeOut">
+                                    <span>время вышло</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock-text">
+                            <p>Закажи удочку в течение 5 минут и получи скидку 10% на заказ. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-stock">
+                            <form id="aksia" method="POST" action="application.php">
+                                <input name="name" placeholder="Введите ваше имя" class="inp" type="text" required/>
+                                <input name="telephone" placeholder="Введите ваш номер" class="inp" type="text" required/>
+                                <input class="btn" value="заказать" type="submit">
+                            </form>
+                            <form id="ne-aksia" method="POST" action="application.php">
+                                <input name="telephone" placeholder="Введите ваш номер" class="inp" type="text" required/>
+                                <input class="btn" value="заказать" type="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>А вот почему заказывают именно у нас:</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/second-icon-1.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Экономим ваши деньги</h3>
+                            <p>Работаем без посредников, и экономим до
+                                <br> 1200 рублей ваших денег.
+                                <br> Убедитесь сами!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/second-icon-2.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Вернем ваши деньги</h3>
+                            <p>Соблюдаем закон "О защите прав потребителей"
+                                <br> , и вернем 100% стоимости, если продукт
+                                <br> не будет соответствовать
+                                <br> описанию.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/second-icon-3.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Гарантируем честность</h3>
+                            <p>Посылка отправляется с описью вложения.
+                                <br> Вы получите на 100% заказываемый
+                                <br> товар.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/second-icon-4.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Без предоплаты</h3>
+                            <p>Получите, убедитесь в качестве и оплатите. <br> Все чисто и прозрачно.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/second-icon-5.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Нам доверяют</h3>
+                            <p>11 320 проданных удочек. Из них 30% <br> повторно куплено нашими клиентами. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="made">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>как работает?<br>какими свойствами обладает? Из чего состоит?</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="characteristics">
+                        <h5>Технические параметры удочки:</h5>
+                        <ul>
+                            <li>Длина: 2,4мм; 2,7мм</li>
+                            <li>Конструкция: телескоп</li>
+                            <li>Материал: стеклопластик</li>
+                            <li>Строй: Fast (быстрый) </li>
+                            <li>Тест: от 60 гр.</li>
+                        </ul>
+                    </div>
+                    <div class="video">
+                        <h5>принцип работы;</h5>
+                        <iframe width="100%" height="230" src="https://www.youtube.com/embed/U6rTgNQSoLc?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-8">
+                    <div class="elements">
+                        <h5>из чего состоит наша удочка: </h5>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="case case-1">
+                                    <div class="img-case "><img src="img/img-case-2.png" alt=""></div>
+                                    <div class="text-case">
+                                        <p>Рукоятка удилища <br>выполнена из материала EVA</p>
+                                    </div>
+                                </div>
+                                <div class="case case-2">
+                                    <div class="img-case"><img src="img/img-case-1.png" alt=""></div>
+                                    <div class="text-case">
+                                        <p>Бланк удочки выполнен <br>из крепкого стекловолокна</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="case case-3">
+                                    <div class="img-case"><img src="img/img-case-4.png" alt=""></div>
+                                    <div class="text-case">
+                                        <p>Катушкодержатель <br>выполнениз крепких сортов пластика</p>
+                                    </div>
+                                </div>
+                                <div class="case case-4">
+                                    <div class="img-case"><img src="img/img-case-3.png" alt=""></div>
+                                    <div class="text-case">
+                                        <p>Кольца выполнены из <br>карбид-кремния и нержавеющей стали</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="case case-5">
+                                    <div class="img-case"><img src="img/img-case-5.png" alt=""></div>
+                                    <div class="text-case">
+                                        <p>Самоподсекающий механизм <br>с тремя уровнями поклевки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contrast">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Остерегайтесь фальшивок!
+                        <br>Что отличает нашу удочку от подделки?</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 bord">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/contr-icon-1.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Чувствительность</h3>
+                            <p>Реагирует на рыбу от 300 грамм,
+                                <br>что на 200 грамм меньше,
+                                <br>чем у подделки.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bord">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/contr-icon-2.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Качество соединений</h3>
+                            <p>Надежно и профессионально. Перед
+                                <br>реализацией проводится
+                                <br>диагностика.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bord">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/contr-icon-3.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Фирменное приложение</h3>
+                            <p>Фирменный тех.пасспорт в
+                                <br> приложении, содержащий данные
+                                <br> производителя.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="case">
+                        <div class="icon-case">
+                            <img src="img/contr-icon-4.png" alt="">
+                        </div>
+                        <div class="text-case">
+                            <h3>Механика</h3>
+                            <p>Надежный, как часики, механизм.
+                                <br>Легкость и плавность
+                                <br>действий.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hree">
+    <section class="cert">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>наши сертификаты</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a rel="modal:open" href="#zoom-cert-1"><img src="img/cert-1.png" alt=""></a> 
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a href="#zoom-cert-2" rel="modal:open"><img src="img/cert-2.png" alt=""></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plans">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>выбери свою удочку:</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-lg-3">
+                    <div class="card boot">
+                        <div class="card-text-1">
+                            <p>Размер:</p>
+                            <p>2.1м.</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="card-text-1">
+                            <p>Цена:</p>
+                            <p>2490р.</p>
+                        </div>
+                        <div class="but">
+                            <a class="no-buy disabled" href="#">Продано</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-text-1">
+                            <p>Размер:</p>
+                            <p> 2.4 м</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="card-text-1">
+                            <p>Цена:</p>
+                            <p> 2690р.</p>
+                        </div>
+                        <div class="but">
+                            <a id="short" for="two" href="#buy-it">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-text-1">
+                            <p>Размер:</p>
+                            <p>2.7 м.</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="card-text-1">
+                            <p>Цена:</p>
+                            <p>2890р.</p>
+                        </div>
+                        <div class="but">
+                            <a id="long" for="three" href="#buy-it">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-3">
+                    <div class="card boot">
+                        <div class="card-text-1">
+                            <p>Размер:</p>
+                            <p>3.0 м.</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="card-text-1">
+                            <p>Цена:</p>
+                            <p>3190р.</p>
+                        </div>
+                        <div class="but">
+                            <a class="no-buy disabled" href="#">Продано</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="step">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Всего 3 шага от желания до наличия</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-md-4 d-flex justify-content-center">
+                    <img src="img/step-one.png" alt="">
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 d-flex justify-content-center">
+                    <img src="img/step-two.png" alt="">
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 d-flex justify-content-center">
+                    <img src="img/step-three.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ship">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Доставка: Как? Куда? Сколько?</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <a rel="modal:open" href="#modal-ship">Как доставляем?</a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <a rel="modal:open" href="#modal-where-ship">Куда доставляем?</a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <a rel="modal:open" href="#modal-how-much">Сколько стоит?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <hr class="hree">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Реальные отзывы покупателей</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="rev-img">
+                            <img src="img/man-1.png" alt="">
+                        </div>
+                        <div class="rev-text">
+                            <p class="name">Иван Дмитриевич</p>
+                            <p>Перед покупкой проштудировал весь
+                                <br> интернет, как это полагается. Видел
+                                <br> очень много аналогов, но, как
+                                <br> оказалось, это не были оригиналы.
+                                <br> Знакомый посоветовал этот сайт, и я
+                                <br> решил заказать здесь + получил
+                                <br> скидку в 20% и приятный подарочек в
+                                <br> виде плетенной лески. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="rev-img">
+                            <img src="img/man-2.png" alt="">
+                        </div>
+                        <div class="rev-text">
+                            <p class="name">Дмитрий кузнецов</p>
+                            <p>Недавно купил FisherGoMan. Хотел
+                                <br> оценить новинку, так сказать. Мне
+                                <br> все очень понравилось, и вопреки
+                                <br> некоторым заявлениям (типа она
+                                <br> слабо чувствительная или у нее
+                                <br> плохие соединения), работает она на
+                                <br> ура, потому-что мне
+                                <br> посчастливилось купить оригинал. А
+                                <br> те, кто привык покупать подделки -
+                                <br> пускай и дальше разводят грязь в
+                                <br> интернете)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="rev-img">
+                            <img src="img/man-3.png" alt="">
+                        </div>
+                        <div class="rev-text">
+                            <p class="name">Алексей остапенко</p>
+                            <p>Сделал сыну подарок на день
+                                <br> рождения, и, заодно, взял по скидке
+                                <br> и себе. Сыну все очень понравилось,
+                                <br> часто берет удочку с собой на отдых.
+                                <br> Да и мне не плохо, закинул, пока
+                                <br> раскладываешь палатку - там уже
+                                <br> рыбка выловилась к обеду. Сказка, а
+                                <br> не рыбалка! Спасибо FisherGoMan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="buy-it" class="buy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Заказать FisherGoMan</h4>
+                    <p>Выбери размер своей удочки и сэкономь 500 рублей на следующей</p>
+                    <p>Плетенная лезка в подарок</p>
+                </div>
+            </div>
+            <form class="form-send" method="POST" action="application.php">
+                <div class="metr">
+                    <!-- <input class="hide" name="cardtype" value="one" id="one" type="radio"> -->
+                    <label class="select boot" for="one">2.1м.</label>
+
+                    <input class="hide" name="size" value="2.4m" id="two" type="radio">
+                    <label class="select shortSelect selectSearch" for="two">2.4 м.</label>
+
+                    <input class="hide" name="size" value="2.7m" id="three" type="radio">
+                    <label class="select longSelect selectSearch" for="three">2.7 м.</label>
+
+                    <!-- <input class="hide" name="cardtype" value="four" id="four" type="radio"> -->
+                    <label class="select boot" for="four">3.0 м.</label>
+                </div>
+                <div class="send">
+                    <input class="number" name="telephone" placeholder="Введите ваш номер" type="text" required/>
+                    <input type="submit" value="Заказать" class="btn">
+                </div>
+            </form>
+                <p class="no-all-write">* Вы не выбрали размер удочки</p>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Хотите сами забрать свою удочку ?</h4>
+                    <p>подберите по карте ближайший склад и сообщите об этом менеджеру</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.4630360430833!2d37.59825771565464!3d55.61135838051578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab28988c29061%3A0x433b64b32e4421a!2zVWxpdHNhIEtyYXNub2dvIE1heWFrYSwg0LLQu9Cw0LTQtdC90LjQtSAxLCBNb3NrdmEsIFJvc2phLCAxMTc1MTk!5e0!3m2!1spl!2spl!4v1526756700041"
+                        allowfullscreen="allowfullscreen" class="maps" style="border: 0px none;" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-2 foot-logo">
+                    <img src="img/footer-logo.png" alt="">
+                </div>
+                <div class="col-12 col-lg-3 disc disc-1">
+                    <h5>ооо”тд немо”
+                        <br>инн 45678913265734
+                        <br>огрн 541232304521354132</h5>
+                    <p>Официальный интернет магазин
+                        <br>самоподсекающих удочек</p>
+                </div>
+                <div class="col-12 col-lg-2 offset-lg-1 disc disc-2">
+                    <p class="pol">Политика конфиденциальности</p>
+                </div>
+                <div class="col-12 col-lg-3 offset-lg-1 disc disc-3">
+                    <div class="add">
+                        <span>Нас можно найти по адресу :</span>
+                        <p>ул. Красного маяка 1к1</p>
+                    </div>
+                    <div class="contact">
+                        <span>Контакты :</span>
+                        <p> fisher.goman@yandex.ru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/shortcut.js"></script>
+    <script src="js/js.js"></script>
+    <!-- modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</body>
+
+</html>
