@@ -1,5 +1,7 @@
 window.addEventListener('load', function (e) {
     tagsCreater('.mainText');
+    tagsCreater('.mainText2');
+    tagsCreater('.mainText3');
 
     function tagsCreater(tagClass) {
         var tag = document.querySelector(tagClass);
@@ -28,8 +30,8 @@ window.addEventListener('load', function (e) {
                             contex.classList.add('activeAfter');
                             setTimeout(function () {
                                 contex.classList.remove('activeAfter');
-                            }, 300)
-                        }, 300)
+                            }, 200)
+                        }, 200)
                     })
                     setTimeout(function () {
                         span[i].style.display = 'inline-block';
