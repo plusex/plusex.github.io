@@ -17,7 +17,7 @@ h1, h2 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 38px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 
 .wip {
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 58px;
     font-weight: 700;
     cursor: pointer;
     transition: all .3s;
