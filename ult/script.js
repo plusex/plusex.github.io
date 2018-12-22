@@ -44,7 +44,7 @@ window.addEventListener('load', function (e) {
                             setTimeout(function () {
                                 span[i].classList.remove('activeAfter');
                             }, 300)
-                        }, 20 * i)
+                        }, 10 * i)
                     }, 70 * i)
                 }
             }
