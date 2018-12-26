@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Proxima Nova;
     background: #0F111A;
+    min-width: 320px;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
 }
 
 .wrap {
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -66,15 +67,24 @@ span {
         line-height: 24px;
     }
     .wip {
+        font-size: 29px;
+    }
+}
+
+@media(max-width: 415px) {
+    h1,h2,h3,h4,h5 {
+        line-height: 19px;
+    }
+    .wip {
         font-size: 25px;
     }
 }
 
-@media(max-width: 374px) {
+@media(max-width: 360px) {
     h1,h2,h3,h4,h5 {
-        line-height: 15px;
+        line-height: 19px;
     }
     .wip {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
