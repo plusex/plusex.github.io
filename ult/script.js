@@ -50,12 +50,4 @@ window.addEventListener('load', function (e) {
             }
         }, 500);
     }
-
-
-
-
-
-
-
-
 });
