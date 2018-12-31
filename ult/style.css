@@ -12,7 +12,8 @@ body {
 }
 
 .wrap {
-    margin-top: 100px;
+    margin-top: 150px;
+    padding: 0 0 0 20px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -22,6 +23,7 @@ h1,h2,h3,h4,h5 {
     font-size: 38px;
     color: #fff;
     line-height: 40px;
+    font-family: 'Avenir Next Cyr';
 }
 
 h1 {
@@ -66,25 +68,40 @@ span {
 
 
 
-
-
-
-
-
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 5px 5px;
+    align-items: center;
+    padding: 40px 15px;
+    background: #090B10;
 }
 
 ul {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 li {
     list-style: none;
+    opacity: .5;
+}
+
+.soc li {
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+li i {
+    font-size: 20px;
+}
+
+li:hover {
+    opacity: 1;
 }
 
 p {
@@ -95,7 +112,40 @@ p {
 a {
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    outline: none;  
 }
+
+nav .menu-wrap:first-child {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav .menu-wrap:last-child {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background: #FC0853;
+}
+
+
+
+
+
+
+
+
+
 
 
 

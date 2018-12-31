@@ -45,9 +45,16 @@ window.addEventListener('load', function (e) {
                                 span[i].classList.remove('activeAfter');
                             }, 300)
                         }, 10 * i)
-                    }, 70 * i)
+                    }, 60 * i)
                 }
             }
         }, 500);
+    }
+    
+    var line = document.querySelector('.line');
+    for (let i = 0; i <= 100; i++) {
+        setTimeout(function() {
+            line.style.height = i + '%'
+        }, 20 * i);
     }
 });
