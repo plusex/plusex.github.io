@@ -1,0 +1,9 @@
+.bg(@url: '', @color: transparent, @repeat: no-repeat, @x: center, @y: center) {
+    background: @color url("@{url}") @repeat @x @y;
+    background-size:cover;
+}
+.media(@content, @size){
+    @media (max-width:@size){
+        @content();
+    }
+}
