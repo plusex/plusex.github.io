@@ -4479,15 +4479,21 @@ $('.navbar-toggler').on('click', function() {
   $('body').toggleClass('overfl');
 });
 
-$("#exampleModalLong").on("hidden", function () {
-  console.log(1)
-});
-
-$('.nav-item.slash .nav-link').on('click', function() {
-  $('.top-menu').toggleClass('opened');
-  $('html').toggleClass('overfl');
-  $('body').toggleClass('overfl');
+$('.nav-item.slash').on('click', function() {
+  if($('body').width() >= 768) {
+    $('html').toggleClass('overfl');
+    $('body').toggleClass('overfl');
+  }
 })
+$('#exampleModalLong').on('hide.bs.modal', function() {
+    if($('body').width() >= 768) {
+      $('html').toggleClass('overfl');
+      $('body').toggleClass('overfl');
+    }
+    
+  })
+
+
 
 $('.product-page .item').on('click', function() {
   $('.item').removeClass('active');
