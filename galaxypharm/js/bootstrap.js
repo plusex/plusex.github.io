@@ -4475,8 +4475,19 @@ $('.hover-cart').on('mouseover', function() {
 
 $('.navbar-toggler').on('click', function() {
   $('.top-menu').toggleClass('opened');
-  $('body').toggleClass('overfl')
+  $('html').toggleClass('overfl');
+  $('body').toggleClass('overfl');
 });
+
+$("#exampleModalLong").on("hidden", function () {
+  console.log(1)
+});
+
+$('.nav-item.slash .nav-link').on('click', function() {
+  $('.top-menu').toggleClass('opened');
+  $('html').toggleClass('overfl');
+  $('body').toggleClass('overfl');
+})
 
 $('.product-page .item').on('click', function() {
   $('.item').removeClass('active');
@@ -4486,10 +4497,19 @@ $('.product-page .item').on('click', function() {
 $('.plus').on('click', function() {
   var num = $(this).parent().find('input').val();
   $(this).parent().find('input').val(+num + +1);
+  $(this).parent().find('.minus').removeClass('disable-minus')
 });
 $('.minus').on('click', function() {
   var num = $(this).parent().find('input').val();
-  $(this).parent().find('input').val(+num - +1);
+  if(num >= 1) {
+    if(num == '1') {
+      $(this).parent().find('input').val(+num - +1);
+      $(this).addClass('disable-minus');
+    } else {
+      $(this).parent().find('input').val(+num - +1);
+    }
+    
+  }
 });
 //# sourceMappingURL=bootstrap.js.map
 
