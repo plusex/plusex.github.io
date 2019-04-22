@@ -4517,6 +4517,11 @@ $('.minus').on('click', function() {
     
   }
 });
+
+
+$('.main-item-menu').on('click', function() {
+  $(this).parent().find('.hide-menu').toggleClass('show');
+})
 //# sourceMappingURL=bootstrap.js.map
 
 
