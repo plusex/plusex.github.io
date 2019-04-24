@@ -4519,6 +4519,9 @@ $('.navbar-toggler').on('click', function () {
   $('.top-menu').toggleClass('opened');
   $('html').toggleClass('overfl');
   $('body').toggleClass('overfl');
+  $('.wrap').toggleClass('overfl');
+  $('.main-wrap').toggleClass('overfl');
+
 });
 
 $('.nav-item.slash').on('click', function () {
