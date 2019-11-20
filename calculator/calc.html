@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <textarea rows="30" type="text" id="mainDisplay"></textarea>
+            <div id="result"></div>
+        </div>
+        <div class="buttons">
+            <div class="btns-head">
+                <div class="tools">
+                    <button class="btn-calc" id="clear">c</button>
+                    <button class="btn-calc"></button>
+                    <button class="btn-calc"></button>
+                </div>
+                <div class="number-plate">
+                    <button data-value="7" class="btn-calc">7</button>
+                    <button data-value="8" class="btn-calc">8</button>
+                    <button data-value="9" class="btn-calc">9</button>
+                    <button data-value="4" class="btn-calc">4</button>
+                    <button data-value="5" class="btn-calc">5</button>
+                    <button data-value="6" class="btn-calc">6</button>
+                    <button data-value="1" class="btn-calc">1</button>
+                    <button data-value="2" class="btn-calc">2</button>
+                    <button data-value="3" class="btn-calc">3</button>
+                    <button data-value="" class="btn-calc"></button>
+                    <button data-value="0" class="btn-calc">0</button>
+                    <button data-value="." class="btn-calc">.</button>
+                </div>
+            </div>
+            <div class="btns-body">
+                <div class="tools-plate">
+                    <button data-action="/" class="btn-calc">÷</button>
+                    <button data-action="*" class="btn-calc">x</button>
+                    <button data-action="-" class="btn-calc">-</button>
+                    <button data-action="+" class="btn-calc">+</button>
+                    <button class="btn-calc" id="equally">=</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="./calc.js"></script>
+</body>
+
+</html>

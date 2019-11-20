@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.btn-calc {
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.number-plate {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+}
+
+.tools {
+    display: flex;
+}
+
+.btns-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-body .tools {
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+}
+
+.calculator {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.display textarea {
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    transition: all 1s;
+    resize: none;
+    overflow: hidden;
+}
+
+.display textarea:focus {
+    outline: none;
+}
+
+.display #result {
+    height: 30px;
+    width: 100%;
+    padding: 0 10px 0 30px;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.display #result:after {
+    content: "=";
+    position: absolute;
+    left: 10px;
+}
