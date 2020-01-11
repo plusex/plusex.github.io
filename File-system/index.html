@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>FileX</title>
+</head>
+
+<body>
+    <div class="context-folder">
+        <ul>
+            <li data-action="rename" class="context-tool" >Переименовать</li>
+            <li data-action="delete" class="context-tool" >Удалить</li>
+        </ul>
+    </div>
+    <div id="modal" class="modal-f">
+        <div class="shadow close"></div>
+        <div class="window">
+            <div class="win-head">
+                <p class="title-name">Включи ДжаваСкрипт, заебал</p>
+                <button class="close">&#10006</button>
+            </div>
+            <div class="win-body">
+                <input type="text" value="Без названия" required>
+                <span>Данное имя уже используется</span>
+            </div>
+            <div class="win-foot">
+                <button style="background: transparent" class="close">отмена</button>
+                <button style="color: #fff" id="submit-modal">Включи ДжаваСкрипт</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="tool-bar">
+            <button data-type="create">+</button>
+            <button data-type="back"><</button>
+        </div>
+        <ul class="pathFolders">
+            <li>home</li>
+        </ul>
+        <div class="file-space">
+            <!-- <div class="folder">
+                        <div class="folder-icon">
+                            0
+                        </div>
+                        <div class="folder-name">
+                            123
+                        </div>
+                    </div> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
