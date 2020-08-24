@@ -1,0 +1,566 @@
+/* line 1, ../paris10/styles/main.scss */
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* line 5, ../paris10/styles/main.scss */
+body,
+h1, h2, h3, h4, h5,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../paris10/styles/main.scss */
+.content {
+  display: flex;
+}
+
+/* line 18, ../paris10/styles/main.scss */
+.block__title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Oswald',Helvetica Neue,Arial,Sans-serif;
+  color: #464646;
+  margin-bottom: 30px;
+  margin-top: 7px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+/* line 32, ../paris10/styles/main.scss */
+.block__title:before, .block__title:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  pointer-events: none;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* line 43, ../paris10/styles/main.scss */
+.block__title:before {
+  content: "";
+  margin-left: -11px;
+  border-width: 11px;
+  border-top-color: #cecece;
+}
+
+/* line 49, ../paris10/styles/main.scss */
+.block__title:after {
+  content: "";
+  margin-left: -10px;
+  border-width: 10px;
+  border-top-color: #fff;
+}
+
+/* line 56, ../paris10/styles/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 58, ../paris10/styles/main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 61, ../paris10/styles/main.scss */
+a:visited {
+  text-decoration: none;
+}
+
+/* line 64, ../paris10/styles/main.scss */
+a:active {
+  text-decoration: none;
+}
+
+/* line 68, ../paris10/styles/main.scss */
+.dummy-block {
+  display: none;
+  width: 110px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 767px) {
+  /* line 68, ../paris10/styles/main.scss */
+  .dummy-block {
+    display: block;
+  }
+}
+
+/* line 78, ../paris10/styles/main.scss */
+.service-btn {
+  background: #5BC0DE;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px #880E4F;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+}
+
+/* line 92, ../paris10/styles/main.scss */
+.service-btn:hover {
+  background: #880E4F;
+  color: #fff;
+}
+
+/* line 96, ../paris10/styles/main.scss */
+.service-btn:active {
+  color: #fff;
+}
+
+/* line 101, ../paris10/styles/main.scss */
+.trip-constructor {
+  padding-bottom: 40px;
+}
+
+/* line 105, ../paris10/styles/main.scss */
+.trip-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media (min-width: 365px) {
+  /* line 105, ../paris10/styles/main.scss */
+  .trip-items {
+    width: 335px;
+  }
+}
+
+@media (min-width: 478px) {
+  /* line 105, ../paris10/styles/main.scss */
+  .trip-items {
+    width: 448px;
+  }
+}
+
+@media (min-width: 591px) {
+  /* line 105, ../paris10/styles/main.scss */
+  .trip-items {
+    width: 561px;
+  }
+}
+
+@media (min-width: 704px) {
+  /* line 105, ../paris10/styles/main.scss */
+  .trip-items {
+    width: 674px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 105, ../paris10/styles/main.scss */
+  .trip-items {
+    width: 100%;
+  }
+}
+
+/* line 124, ../paris10/styles/main.scss */
+.trip-items .item {
+  flex-basis: 49%;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(63, 63, 63, 0.1);
+  margin-bottom: 4px;
+  margin-right: 4px;
+  color: #3F3F3F;
+}
+
+/* line 135, ../paris10/styles/main.scss */
+.trip-items .item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* line 138, ../paris10/styles/main.scss */
+.trip-items .item:hover {
+  text-decoration: underline;
+}
+
+/* line 140, ../paris10/styles/main.scss */
+.trip-items .item:hover p {
+  opacity: 1;
+}
+
+@media (min-width: 366px) {
+  /* line 124, ../paris10/styles/main.scss */
+  .trip-items .item {
+    flex-basis: 109px;
+  }
+  /* line 146, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(2n) {
+    margin-right: 4px;
+  }
+  /* line 149, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 478px) {
+  /* line 154, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(3n) {
+    margin-right: 4px;
+  }
+  /* line 157, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 591px) {
+  /* line 162, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(4n) {
+    margin-right: 4px;
+  }
+  /* line 165, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 704px) {
+  /* line 170, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(5n) {
+    margin-right: 4px;
+  }
+  /* line 173, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(6n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 124, ../paris10/styles/main.scss */
+  .trip-items .item {
+    flex-basis: auto;
+    width: 116px;
+    height: 116px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 124, ../paris10/styles/main.scss */
+  .trip-items .item {
+    width: 94px;
+    height: 94px;
+  }
+  /* line 185, ../paris10/styles/main.scss */
+  .trip-items .item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 124, ../paris10/styles/main.scss */
+  .trip-items .item {
+    width: 116px;
+    height: 116px;
+  }
+}
+
+/* line 193, ../paris10/styles/main.scss */
+.trip-items .item svg {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 7px;
+  height: 40px;
+  width: 40px;
+}
+
+@media (min-width: 768px) {
+  /* line 193, ../paris10/styles/main.scss */
+  .trip-items .item svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 193, ../paris10/styles/main.scss */
+  .trip-items .item svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 193, ../paris10/styles/main.scss */
+  .trip-items .item svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 213, ../paris10/styles/main.scss */
+.trip-items .item p {
+  padding: 0 22px;
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  opacity: .5;
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  /* line 213, ../paris10/styles/main.scss */
+  .trip-items .item p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 213, ../paris10/styles/main.scss */
+  .trip-items .item p {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 213, ../paris10/styles/main.scss */
+  .trip-items .item p {
+    padding: 0 20px;
+  }
+}
+
+/* line 233, ../paris10/styles/main.scss */
+.trip-services-cards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 745px) {
+  /* line 233, ../paris10/styles/main.scss */
+  .trip-services-cards {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 233, ../paris10/styles/main.scss */
+  .trip-services-cards {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 233, ../paris10/styles/main.scss */
+  .trip-services-cards {
+    flex-direction: row;
+  }
+}
+
+/* line 246, ../paris10/styles/main.scss */
+.trip-services-cards .card {
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+}
+
+/* line 250, ../paris10/styles/main.scss */
+.trip-services-cards .card:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  /* line 246, ../paris10/styles/main.scss */
+  .trip-services-cards .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 745px) {
+  /* line 246, ../paris10/styles/main.scss */
+  .trip-services-cards .card {
+    width: 225px;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  /* line 260, ../paris10/styles/main.scss */
+  .trip-services-cards .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 246, ../paris10/styles/main.scss */
+  .trip-services-cards .card {
+    width: 197px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 246, ../paris10/styles/main.scss */
+  .trip-services-cards .card {
+    flex-direction: row;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 246, ../paris10/styles/main.scss */
+  .trip-services-cards .card {
+    width: 200px;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  /* line 277, ../paris10/styles/main.scss */
+  .trip-services-cards .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+/* line 281, ../paris10/styles/main.scss */
+.trip-services-cards .card img {
+  max-width: 245px;
+  min-width: 245px;
+  object-fit: cover;
+  flex-shrink: 1;
+  margin-right: 10px;
+}
+
+@media (max-width: 550px) {
+  /* line 281, ../paris10/styles/main.scss */
+  .trip-services-cards .card img {
+    width: 200px;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 495px) {
+  /* line 281, ../paris10/styles/main.scss */
+  .trip-services-cards .card img {
+    width: 145px;
+  }
+}
+
+@media (min-width: 745px) {
+  /* line 281, ../paris10/styles/main.scss */
+  .trip-services-cards .card img {
+    margin-bottom: 10px;
+    margin-right: 0;
+    height: 120px;
+    width: 100%;
+    max-width: 100%;
+    flex-basis: auto;
+    min-width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 281, ../paris10/styles/main.scss */
+  .trip-services-cards .card img {
+    margin-bottom: 0;
+    height: auto;
+    margin-right: 20px;
+    max-width: 200px;
+    flex-basis: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 281, ../paris10/styles/main.scss */
+  .trip-services-cards .card img {
+    margin-bottom: 10px;
+    margin-right: 0;
+    height: 120px;
+    width: 100%;
+    max-width: 100%;
+    flex-basis: auto;
+  }
+}
+
+/* line 319, ../paris10/styles/main.scss */
+.trip-services-cards .card .card-title {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  color: #3F3F3F;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 319, ../paris10/styles/main.scss */
+  .trip-services-cards .card .card-title {
+    font-size: 16px;
+  }
+}
+
+/* line 331, ../paris10/styles/main.scss */
+.trip-services-cards .card .card-title svg {
+  margin-left: 7px;
+}
+
+/* line 335, ../paris10/styles/main.scss */
+.trip-services-cards .card .card-text {
+  opacity: .5;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3F3F3F;
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/* line 347, ../paris10/styles/main.scss */
+.trip-services-cards .card .card-text-more {
+  display: inline;
+}
+
+@media (min-width: 745px) {
+  /* line 347, ../paris10/styles/main.scss */
+  .trip-services-cards .card .card-text-more {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 347, ../paris10/styles/main.scss */
+  .trip-services-cards .card .card-text-more {
+    display: inline;
+  }
+}
+
+/* line 356, ../paris10/styles/main.scss */
+.trip-services-cards .card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 361, ../paris10/styles/main.scss */
+.trip-services-cards .card .btn {
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
