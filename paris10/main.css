@@ -404,7 +404,7 @@ a:active {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 246, ../paris10/styles/main.scss */
   .trip-services-cards .card {
     width: 197px;
