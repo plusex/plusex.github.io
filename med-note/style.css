@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	background: rgb(184, 184, 184);
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.reset-btn {
+	font-size: 20px;
+	background: white;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid gray;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.schedule-list {
+	padding: 10px;
+}
+
+.create {
+	border: 1px solid gray;
+	background: #fff;
+}
+.create.clicked form {
+	display: flex;
+}
+.create.clicked .create-schedule-btn span:last-child {
+	display: block;
+}
+.create.clicked .create-schedule-btn span:first-child {
+	display: none;
+}
+
+.create form {
+	display: none;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 20px;
+}
+.create form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.create form button {
+	background: transparent;
+	padding: 20px 10px;
+	border: 1px solid gray;
+	border-bottom: 0;
+	font-size: 16px;
+}
+
+.create input, select {
+	padding: 7px 5px;
+	font-size: 18px;	
+	margin-bottom: 10px;
+}
+
+.create-schedule-btn {
+	font-size: 50px;
+	background: transparent;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid gray;
+	padding: 0;
+	box-sizing: border-box;
+}
+.create-schedule-btn span:last-child{
+	display: none;
+}
+
+.schedule {
+	background: #fff;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.schedule h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.schedule.completed {
+	opacity: .5;
+}
+
+.schedule .stat-wrapper{
+	display: flex;
+	margin-top: 10px;
+}
+.schedule .stat-wrapper span{
+	font-size: 18px;
+	font-weight: 600;
+}
+.schedule .stat-wrapper span:first-child{
+	margin-left: 10px;
+}
+
+.schedule .stat-wrapper span:last-child:before{
+	content: '/';
+}
+
+.schedule .stat {
+	margin-left: 10px;
+}
+
+.schedule button {
+	border: none;
+	font-size: 50px;
+	height: 100%;
+}
